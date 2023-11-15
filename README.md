@@ -23,7 +23,7 @@ Auto Labeler is an automated image annotation tool that leverages the power of O
 Clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/your-username/Auto-Labeler.git
+git clone https://github.com/Flode-Labs/auto-labeler.git
 ```
 
 
