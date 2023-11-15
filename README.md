@@ -1,3 +1,6 @@
+
+![Auto Labeler](./Auto%20Labeler.png)
+
 # Auto Labeler
 
 Auto Labeler is an automated image annotation tool that leverages the power of OpenAI's GPT-4 Vision API to detect objects in images and provide bounding box annotations.
