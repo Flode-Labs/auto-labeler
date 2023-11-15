@@ -29,37 +29,43 @@ git clone https://github.com/Flode-Labs/auto-labeler.git
 
 ### Usage
 
-1. Set your OpenAI API key:
+1. Install required packages:
+
+```
+pip install -r requirements.txt
+```
+
+2. Set your OpenAI API key:
 
 ```python
 api_key = "YOUR_API_KEY"
 ```
 
-2. Specify the path of the folder with the images that you want to label:
+3. Specify the path of the folder with the images that you want to label:
 
 ```python
 input_folder = '/path/to/input/folder'
 ```
 
-3. Specify the path of the folder where you want to save the labels:
+4. Specify the path of the folder where you want to save the labels:
 
 ```python
 output_folder = '/path/to/output/folder'
 ```
 
-4. Specify the format in which you want to save the labels:
+5. Specify the format in which you want to save the labels:
 
 ```python
 output_format = 'json' # or 'tf'
 ```
 
-5. Define the list of labels you want to detect:
+6. Define the list of labels you want to detect:
 
 ```python
 labels = ['cat', 'dog', 'bird']
 ```
 
-6. Run the main script:
+7. Run the main script:
 
 ```bash
 python main.py
